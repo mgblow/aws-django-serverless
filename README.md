@@ -20,8 +20,8 @@ These instructions will help you set up and run the project locally.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/Django-AWS-Lambda-RESTful-API.git
-   cd Django-AWS-Lambda-RESTful-API
+   git clone https://github.com/yourusername/aws-django-serverless.git
+   cd aws-django-serverless
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -40,7 +40,7 @@ These instructions will help you set up and run the project locally.
 4. Copy .env.example file and fill it with the required credentials accordingly.
 
 
-5. Apply DynamoDb table migrations:
+5. Apply DynamoDb table migrations, this script will create table for you using cli, remember to change the table name in this file:
 
    ```bash
    python migrator.py
@@ -75,5 +75,5 @@ Ensure you set the necessary environment variables for AWS Lambda deployment, in
 
 - Django - The web framework used
 - Django Rest Framework - Toolkit for building Web APIs
-- PostgreSQL - Database management system
+- DynamoDB - AWS key-value database
 - AWS Lambda - Serverless computing platform
