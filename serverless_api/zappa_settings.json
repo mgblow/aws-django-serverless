@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "aws_region": "eu-north-1",
+    "django_settings": "config.settings",
+    "profile_name": "default",
+    "project_name": "serverless_api",
+    "runtime": "python3.8",
+    "s3_bucket": "zappa-dk6zi56pq",
+    "delete_s3_zip": false,
+    "environment_variables": {
+      "AWS_ACCESS_KEY_ID": "",
+      "AWS_SECRET_ACCESS_KEY": "",
+      "AWS_DYNAMO_TABLE_NAME": "",
+      "AWS_REGION_NAME": ""
+    }
+  }
+}
